@@ -16,7 +16,6 @@ git clone https://github.com/lmmentel/xrd-to-heatmap
 and then install with pip
 
 ```bash
-cd xrd-to-heatmap
-pip install xrd-to-heatmap
+pip install [-U] xrd-to-heatmap
 ```
 
