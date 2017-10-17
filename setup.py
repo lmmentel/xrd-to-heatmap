@@ -30,7 +30,7 @@ setup_params = dict(
     ],
     entry_points={
         'console_scripts': [
-            'xrdtools.py = xrdtools:cli',
+            'xrd.py = xrdtools:cli',
         ]
     },
 )
