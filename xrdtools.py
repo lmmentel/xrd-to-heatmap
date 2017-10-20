@@ -94,7 +94,7 @@ def disk_mask(array, x0, y0, radius):
     '''
 
     xdim, ydim = array.shape
-    y, x = np.ogrid[-x0:xdim - x0, -y0:ydim - y0]
+    x, y = np.ogrid[-x0:xdim - x0, -y0:ydim - y0]
     mask = x * x + y * y < radius**2
     return mask
 
